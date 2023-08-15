@@ -1,0 +1,22 @@
+# To access togglz console: http://localhost:8080/togglz-console/index
+
+togglz:
+  enabled: true # Enable actuator endpoint.
+  console:
+    enabled: true # Enable admin console.
+    path: /togglz-console # The path of the admin console when enabled.
+    secured: false
+  features: # first option to declare features
+    PROPERTIES_FEATURE_ONE:
+      label: Properties feature one
+      enabled: false
+    PROPERTIES_FEATURE_TWO:
+      label: Properties feature two
+      enabled: true
+  feature-enums: com.toggle.feature.MyFeaturesEnum # second option to declare features
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+

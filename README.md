@@ -1,5 +1,3 @@
-
-
 ---
 
 # Feature Toggle with Spring Framework
@@ -12,7 +10,7 @@ The main goal of this project is to explore and understand the integration of th
 
 ## Features
 
-- Integration with Togglz library.
+- Integration with [Togglz library](https://www.togglz.org/).
 - Dynamic feature toggling.
 - Real-time modification of application behavior.
 - Access to the feature toggle console via a web browser.
@@ -38,13 +36,6 @@ Follow these steps to set up and run the project locally:
 
    Open your web browser and navigate to [http://localhost:8080/togglz-console](http://localhost:8080/togglz-console) to access the Togglz console.
 
-## Usage
-
-Explore the source code to understand how feature toggles are implemented using Togglz and integrated with the Spring Framework. Modify the feature states and observe real-time changes in the application behavior.
-
-## Configuration
-
-Check the application's configuration files (`application.properties` or `application.yml`) to understand and customize Togglz and Spring configurations.
 
 ## Contributing
 
@@ -53,7 +44,3 @@ Feel free to contribute to this project by submitting issues, feature requests, 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-Feel free to further customize the README as needed for your specific project.
